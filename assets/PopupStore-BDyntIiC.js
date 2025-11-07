@@ -1,1 +1,0 @@
-import{O as t}from"./index-BAz13sdF.js";const i=t("popupStore",{state:()=>({popups:[]}),actions:{show(o){const p=Symbol();this.popups.push({id:p,...o})},close(o){const p=this.popups.findIndex(s=>s.id===o);p!==-1&&this.popups.splice(p,1)}}});export{i as usePopupStore};
